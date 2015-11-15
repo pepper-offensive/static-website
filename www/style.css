@@ -5,14 +5,15 @@ body {
 
 h1 {
 	text-align: center;
-	margin-top: 2em;
+	margin-top: 1em;
 }
 
 h1 img {
 	max-width: 60%;
 }
-.bio {
-	margin: 0 auto;
+
+.bio, .songs {
+	margin: 0 auto 4em;
 	width: 80%;
 	max-width: 600px;
 }
@@ -36,7 +37,7 @@ li a {
 	width: 200px;
 	text-indent: -999em;
 	opacity: .7;
-	transition: all 500ms ease; 
+	transition: all 500ms ease;
 }
 
 .the-high-noon a {
@@ -54,4 +55,3 @@ li a {
 a:hover {
 	opacity: 1;
 }
-
