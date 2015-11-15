@@ -1,0 +1,57 @@
+body {
+	min-height: 100%;
+	background: url(img/bg.png);
+}
+
+h1 {
+	text-align: center;
+	margin-top: 2em;
+}
+
+h1 img {
+	max-width: 60%;
+}
+.bio {
+	margin: 0 auto;
+	width: 80%;
+	max-width: 600px;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	margin: 2em 0;
+}
+
+li {
+	display: inline-block;
+}
+
+li a {
+	padding: 2em;
+	border: 1px solid #999;
+	display: block;
+	width: 200px;
+	text-indent: -999em;
+	opacity: .7;
+	transition: all 500ms ease; 
+}
+
+.the-high-noon a {
+	background: url(img/the_high_noon_EP1_art.jpg);
+}
+
+.soundcloud a {
+	background: url(img/soundcloud.png);
+}
+
+.facebook a {
+	background: url(img/facebook.gif);
+}
+
+a:hover {
+	opacity: 1;
+}
+
